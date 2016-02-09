@@ -9,4 +9,4 @@ EXPOSE 25
 VOLUME ["/var/mail"]
 
 
-CMD java -jar /opt/fakeSMTP-1.13.jar -s -b -o /var/mail
+CMD java -jar /opt/fakeSMTP-2.0.jar -s -b -o /var/mail
